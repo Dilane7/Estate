@@ -48,16 +48,28 @@ body{
 .hdr{
     /* width: 100%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
     /* border: 2px solid #111725; */
-    padding: 0 70px;
+    padding-top :0px ; 
     height: 90px;
+    position: fixed; /* Rend la barre de navigation fixe */
+    top: 0; /* Positionne la barre en haut de la page */
+    background-color: #cecccc; /* Couleur de fond */
+    width: 100%; /* Occupe toute la largeur de la page */
 }
+
 .input-search{
     position: relative;
     /* border: 2px solid #fb5607; */
     /* margin-right: 50px; */
     margin-right: 100px;
+
+}
+.input-search:hover{
+    transform: translateY(-5px); /* Légère translation vers le haut */
+    box-shadow: 0 6px 8px rgba(236, 108, 4, 0.788); /* Ombre plus prononcée */
+    transition: .5s ease-out;
 }
 .icon-search{
     width: 20px;
@@ -130,6 +142,11 @@ body{
     border-radius: 30px;
     width: 300px;
     height: 45px;
+    
+}
+.sch:hover{
+
+
 }
 .bt .input-search input::placeholder{
     padding-left: 10px;
@@ -140,6 +157,7 @@ nav{
 
 /* css section 1 */
 
+
 .section1{
     
     height: auto;
@@ -149,6 +167,7 @@ nav{
     justify-content: space-between;
     margin-top: 50px;
     padding-bottom: 80px;
+    padding-top: 100px;
     
     
 }
@@ -176,7 +195,11 @@ nav{
     width: 47%;
     background-color: white;
 }
-
+.sec1-droite:hover{
+    transform: translateX(-30px); /* Légère translation vers lA DROIT */
+    transition: .3s ease-out;
+    background-color: transparent;
+}
 /* css section 2 */
 
 .section2{
@@ -204,6 +227,22 @@ nav{
     align-items: center;
     padding-bottom: 30px;
 }
+.design:hover{
+    transform: translateY(20px); /* Légère translation vers lE HAUT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(12, 65, 255, 0.788); /* Ombre plus prononcée */
+} 
+.Strategy:hover{
+    transform: translateY(20px); /* Légère translation vers lE HAUT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(236, 4, 124, 0.788); /* Ombre plus prononcée */
+} 
+.Marketing:hover{
+    transform: translateY(20px); /* Légère translation vers lE HAUT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(236, 217, 4, 0.788); /* Ombre plus prononcée */
+} 
+
 
 /* css section 3 */
 
@@ -221,7 +260,10 @@ nav{
     width: 47%;
     padding-left: 50px;
 }
-
+.section3-gau:hover{
+    transform: translateX(-10px); /* Légère translation vers la droite*/
+    transition: .1s ease-out;
+}
 
 
 .section3-dro-1{
@@ -263,6 +305,11 @@ nav{
     width: 300px;
     height: 350px;
     border-radius: 15px;
+}
+.card:hover{
+transform: translateY(20px); /* Légère translation vers lE HAUT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(61, 60, 47, 0.788); /* Ombre plus prononcée */
 }
 .card .img-card{
     width: 100%;
@@ -342,7 +389,11 @@ nav{
 .img-sec5{
     border-radius: 10px;
 }
-
+.img-sec5:hover{
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(61, 60, 47, 0.788); /* Ombre plus prononcée */
+    
+}
 /* css section 6 */
 
 .section6{
@@ -364,6 +415,21 @@ nav{
     justify-content: space-between;
     padding: 10px;
     border-radius: 8px;
+}
+.buy:hover{
+    transform: translateX(-30px); /* Légère translation vers lA DROIT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(21, 185, 230, 0.788); /* Ombre plus prononcée */
+}
+.see:hover{
+    transform: translateX(-30px); /* Légère translation vers lA DROIT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(207, 18, 94, 0.953); /* Ombre plus prononcée */
+}
+.rent:hover{
+    transform: translateX(-30px); /* Légère translation vers lA DROIT */
+    transition: .3s ease-out;
+    box-shadow: 0 6px 8px rgba(75, 222, 18, 0.788); /* Ombre plus prononcée */
 }
 
 .icon-sec6{
@@ -394,7 +460,7 @@ select{
     font-weight: bold;
 }
 option{
-    color: #0a223d;
+    color: #2458e7;
     font-size: 20px;
 }
 
@@ -410,7 +476,7 @@ select{
     width: 450px;
     height: 50px;
     margin-bottom:15px ;
-    border: 1px solid rgb(224, 224, 224);
+    border: 1px solid rgb(246, 246, 246);
     
 }
 
